@@ -14,9 +14,10 @@
                 <h2><a href="">{{ post.title }}</a></h2>
                 <p>{{ post.text|linebreaksbr }}</p>
             </article>
-            <p>Total de posts: {{ posts|length }}</p>
+            
 
         {% endfor %}
-
+        
+        <p>Total de posts: {{ posts|length }}</p>
     </body>
 </html>
